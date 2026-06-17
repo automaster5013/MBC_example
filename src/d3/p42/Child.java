@@ -1,4 +1,5 @@
 package d3.p42;
 
-public class Child {
+class Child extends Parent {
+
 }
