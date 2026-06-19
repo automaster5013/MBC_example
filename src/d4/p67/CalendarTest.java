@@ -10,8 +10,8 @@ public class CalendarTest {
         int month = now.get(Calendar.MONTH) + 1;
         int day = now.get(Calendar.DAY_OF_MONTH);
 
-        System.out.println(year + "년 ");
-        System.out.println(month + "월 ");
+        System.out.print(year + "년 ");
+        System.out.print(month + "월 ");
         System.out.println(day + "일");
 
         int ampm = now.get(Calendar.AM_PM);
@@ -21,14 +21,14 @@ public class CalendarTest {
         } else {
             strampm = "오후";
         }
-        System.out.println(strampm + " ");
+        System.out.print(strampm + " ");
 
         int hour = now.get(Calendar.HOUR);
         int minute = now.get(Calendar.MINUTE);
         int second = now.get(Calendar.SECOND);
 
-        System.out.println(hour + "시 ");
-        System.out.println(minute + "분 ");
+        System.out.print(hour + "시 ");
+        System.out.print(minute + "분 ");
         System.out.println(second + "초 ");
     }
 }
